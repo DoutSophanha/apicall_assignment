@@ -1,0 +1,23 @@
+{
+  "name": "login-api",
+  "version": "1.0.0",
+  "description": "assignment",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
